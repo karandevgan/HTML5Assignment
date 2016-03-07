@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: rgb(209, 223, 248);
+}
+
+.headerBanner {
+	background-image: url('../Images/siteheaderimage.png');
+	text-align: center;
+	color: white;
+	padding: 40px;
+	text-shadow: 0 0 5px red;
+}
+
+nav#navTop>ul {
+	list-style-type: none;
+}
+
+nav#navTop>ul>li a {
+	display: inline;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+nav#navTop>ul>li {
+	display: inline;
+}
+
+.profilePic {
+	border: 1px solid black;
+	display: inline-block;
+	float: right;
+	text-align: center;
+}
+
+.articleMain {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 70%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.articleSection {
+	overflow: auto;
+	margin-top: 30px;
+	border: 2px solid blue;
+	border-top-right-radius: 3em;
+	border-top-left-radius: 3em;
+	background-color: rgb(205, 214, 206);
+	padding: 40px;
+	-moz-box-shadow: 0px 0px 15px gray;
+	-webkit-box-shadow: 0px 0px 15px gray;
+	box-shadow: 0px 0px 15px blue;
+}
+
+aside {
+	margin-right: 20px;
+	float: right;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+td, th {
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(205, 174, 255);
+}
+
+th {
+	background-color: rgb(12, 125, 163);
+}
+
+tr:hover {
+	background-color: rgb(169, 248, 252);
+}
+
+.thumbnail {
+	vertical-align: top;
+	width: 150px; max-width : 150px;
+	display: inline-block;
+	margin: 5px;
+	max-width: 150px;
+}
+
+.thumbnailImg {
+	display: block;
+	height: 100px;
+	width: 100px;
+}
