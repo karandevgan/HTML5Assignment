@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="Styles/mainStyle.css">
+<title>Become a member</title>
+</head>
+<body>
+	<header>
+		<hgroup>
+			<h1 class="headerBanner">
+				D<small>R</small>. APJ A<small>BDUL</small> K<small>ALAM</small>
+			</h1>
+			<h2 id="headerLine">Famous Scientist and Former President of
+				India</h2>
+		</hgroup>
+	</header>
+
+	<article class="articleMain">
+		<section id="secForm" class="articleSection">
+			<form id="loginForm">
+				<fieldset>
+					<legend>User Details</legend>
+					<table>
+						<tr>
+							<td><label for="txtEmail">Username: </label></td>
+							<td><input type="email" id="txtEmail"
+								placeholder="user@domain.com" required /></td>
+							<td>
+								<span id="lblCheckUser"></span>
+							</td></tr>
+						<tr>
+							<td><label for="txtPassword">Password: </label></td>
+							<td><input type="password" id="txtPassword"
+								pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!.@_$#]).{6,}$"
+								required /></td>
+							<td>Atleast one uppercase letter, one lowercase letter, one
+								digit and one special character(!.@_$#)</td>
+						</tr>
+					</table>
+					<input type="submit" id="btnSubmit" value="Submit" />
+				</fieldset>
+			</form>
+		</section>
+	</article>
+
+	<footer>
+		<p>&copy; 2016</p>
+		<p>Persistent Systems Ltd.</p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

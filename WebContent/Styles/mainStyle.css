@@ -69,33 +69,31 @@ aside ul {
 	list-style-image: url('../Images/bullet_blue.png');
 }
 
-table {
+.tableData {
 	border-collapse: collapse;
 }
 
-table, th, td {
+.tableData th td {
 	border: 1px solid black;
-}
-
-td, th {
 	padding: 10px;
 }
 
-tr:nth-child(even) {
+.tableData tr:nth-child(even) {
 	background-color: #f2f2f2;
 }
 
-tr:nth-child(odd) {
+.tableData tr:nth-child(odd) {
 	background-color: rgb(205, 174, 255);
 }
 
-th {
+.tableData tr:hover {
+	background-color: rgb(169, 248, 252);
+}
+
+.tableData th {
 	background-color: rgb(12, 125, 163);
 }
 
-tr:hover {
-	background-color: rgb(169, 248, 252);
-}
 
 .thumbnail {
 	vertical-align: top;
@@ -157,4 +155,18 @@ tr:hover {
 
 #memImg2:hover, #memImg4:hover, #memImg6:hover {
 	transform: scale(1.5) rotate(-10deg);
+}
+
+#membershipLink {
+	display: block;
+	text-align: right;
+}
+
+#headerLine {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	color: white;
 }
