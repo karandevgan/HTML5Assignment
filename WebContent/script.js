@@ -16,7 +16,7 @@ function checkUserAjax() {
 		if (httpRequest.responseText.trim() == "true") {
 			document.getElementById("lblCheckUser").innerHTML = "Username available";
 		} else {
-			document.getElementById("lblCheckUser").innerHTML = "Username not available";
+			document.getElementById("lblCheckUser").innerHTML = "Username already registered";
 			document.getElementById("txtEmail").value = "";
 		}
 	} else {

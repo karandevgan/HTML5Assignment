@@ -18,20 +18,20 @@
 
 	<article class="articleMain">
 		<section id="secForm" class="articleSection">
-			<form id="loginForm">
+			<form id="loginForm" method="post" action="register.jsp">
 				<fieldset>
 					<legend>User Details</legend>
 					<table>
 						<tr>
 							<td><label for="txtEmail">Username: </label></td>
-							<td><input type="email" id="txtEmail"
+							<td><input type="email" id="txtEmail" name="txtEmail"
 								placeholder="user@domain.com" required /></td>
 							<td>
 								<span id="lblCheckUser"></span>
 							</td></tr>
 						<tr>
 							<td><label for="txtPassword">Password: </label></td>
-							<td><input type="password" id="txtPassword"
+							<td><input type="password" id="txtPassword" name="txtPassword"
 								pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!.@_$#]).{6,}$"
 								required /></td>
 							<td>Atleast one uppercase letter, one lowercase letter, one
